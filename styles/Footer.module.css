@@ -1,0 +1,37 @@
+.footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100px;
+
+  background-image: linear-gradient(to right, #13182e, rgb(60, 60, 60));
+}
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+.socials {
+  color: white;
+}
+.linkedin {
+  color: #ed2603;
+}
+.github {
+  color: #ed2603;
+}
+.email {
+  color: #ed2603;
+}
+.copy {
+  color: #ed2603;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+@media only screen and (max-width: 600px) {
+  .socials {
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin-left: 2em;
+  }
+}

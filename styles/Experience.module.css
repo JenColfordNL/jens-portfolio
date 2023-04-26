@@ -1,0 +1,21 @@
+.ex {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right, #13182e, rgb(60, 60, 60));
+}
+@media only screen and (min-width: 1096px) {
+  .element {
+    color: rgb(10, 149, 255);
+  }
+  .element2 {
+    color: rgb(10, 149, 255);
+  }
+  .tl {
+    color: rgb(10, 149, 255);
+  }
+}
+/* @media only screen and (max-width: 600px) {
+  . {
+    flex-direction: column;
+    justify-content: center;
+  }
+} */
